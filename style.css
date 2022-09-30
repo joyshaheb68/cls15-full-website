@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Custom Css start  */
+body,h1,h2,h3,h4,h5,h6,a,span,p{
+    font-family: 'Work Sans', sans-serif;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.float-left{
+    float: left;
+}
+/* Custom Css end */
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.container{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+header{
+    background-color: #23c3a4;
+}
+.logo_div {
+    width: 30%;
+    float: left;
+}
+.logo_div h2 a{
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 80px;
+}
+.menu_wrapper {
+    width: 34%;
+    float: right;
+}
+.menu{
+    text-align: right;
+    list-style: none;
+}
+.menu li{
+    float: left;
+}
+.menu li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 30px 0 30px;
+    margin-left: 35px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+/* Hero area start  */
+.hero_area{
+    background-image: url('./image/header-bg01.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px;
+}
+.hero_wrapper h2 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 55px;
+    padding-bottom: 25px;
+}
+.hero_wrapper h4 {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.hero_wrapper a {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    padding: 15px 40px;
+    border-radius: 5px;
+    margin-left: 400px;
+    display: inline-block;
+}
+/* Hero area end  */
+
+/* Service area start  */
+.service_area{
+    padding: 70px 0 100px;
+    border-bottom: 3px solid #23c3a4;
+}
+.service_area h2 {
+    font-size: 42px;
+    padding-bottom: 20px;
+}
+.service_area .s_text {
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+.service_item{
+    width: 25%;
+    text-align: center;
+    padding: 35px;
+}
+.service_item span {
+    font-size: 60px;
+    color: #23c3a4;
+    padding-top: 30px;
+    display: inline-block;
+}
+.service_item h3{
+    font-size: 22px;
+    margin-top: 15px;
+}
+.service_item p{
+    font-size: 17px;
+    margin-top: 15px;
+}
+/* Service area end  */
+
+/* About area start  */
+.about_area{
+    padding: 70px 0;
+}
+.a_h2 {
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.a_pp{}
+.about_wrapper{
+    padding: 80px 0 80px;
+}
+.about_img{
+    width: 40%;
+}
+.about_img img{
+    width: 100%;
+}
+.about_text{
+    width: 60%;
+    padding-left: 60px;
+}
+.about_text .a_t {
+    font-size: 27px;
+    padding-bottom: 15px;
+    font-weight: 500;
+    color: #A1A1A1;
+}
+.about_text .a_p {
+    padding-bottom: 25px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #A1A1A1;
+}
+/* About area end  */
+
+/* Contact area start  */
+.contact_area{
+    background-color: #e9e9e9;
+    padding: 100px 0 80px;
+}
+.c_h2 {
+    font-size: 33px;
+    padding-bottom: 30px;
+}
+.c_p{}
+.contact_item_wrapper{
+    text-align: center;
+}
+.contact_item {
+    width: 33%;
+    padding-top: 50px;
+}
+.contact_item span {
+    font-size: 35px;
+    padding-bottom: 20px;
+    display: inline-block;
+    color: #23c3a4;
+}
+.contact_item .c_h3c {
+    font-weight: 500;
+    padding-bottom: 10px;
+    color: #A1A1A1;
+}
+.contact_item .c_pc {
+    padding-bottom: 10px;
+    color: #A1A1A1;
+}
+/* Contact area end  */
+
+/* Footer top menu start  */
+.footer_top{
+    background-color: #23c3a4;
+    padding: 30px;
+}
+.footer_menu {
+    list-style: none;
+    text-align: center;
+    margin-left: 33%;
+    margin-bottom: 11px;
+}
+.footer_menu li{
+    float: left;
+    margin-left: 50px;
+}
+.footer_menu li a{
+    font-size: 25px;
+    color: white;
+}
+/* Footer top menu end  */
+
+/* Footer start  */
+footer{
+    background-color: rgb(40, 35, 35);
+    padding: 20px;
+}
+.footer_h4{
+    color: white;
+    font-weight: 500;
+}
+/* Footer end */
